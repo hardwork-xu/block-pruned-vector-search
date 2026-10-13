@@ -105,6 +105,6 @@ Raw evidence: [full.json](results/raw/full.json); source revision `6b73052`, run
 
 High-dimensional or overlapping boxes can eliminate pruning benefits; Python traversal and candidate maintenance add overhead. Building needs resident data and temporary copies. The immutable index accepts trusted local numeric input; hashes do not authenticate its origin. There is no GPU, approximate mode, online update, HTTP service or production deployment claim. Read [SECURITY](SECURITY.md).
 
-[Research](docs/en/RESEARCH.md) · [Architecture](docs/en/ARCHITECTURE.md) · [Experiments](docs/en/EXPERIMENTS.md) · [Development](docs/en/DEVELOPMENT.md) · [Walkthrough](docs/en/WALKTHROUGH.md) · [Release](docs/en/RELEASE.md) · [Résumé/evidence](docs/en/RESUME.md) · [Project talk](docs/en/PROJECT_TALK.md) · [Contributing](CONTRIBUTING.md)
+[Research](docs/en/RESEARCH.md) · [Architecture](docs/en/ARCHITECTURE.md) · [Experiments](docs/en/EXPERIMENTS.md) · [Development](docs/en/DEVELOPMENT.md) · [Walkthrough](docs/en/WALKTHROUGH.md) · [Release](docs/en/RELEASE.md) · [Contributing](CONTRIBUTING.md)
 
 [acceptance.json](results/acceptance.json) separates passed, failed and not-run checks. License: [MIT](LICENSE); third-party attribution: [NOTICE](NOTICE.md). Use [CITATION.cff](CITATION.cff), retaining the version, source revision and run ID; no DOI or published-paper claim is made.

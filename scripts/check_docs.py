@@ -12,7 +12,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main() -> int:
     """Return nonzero for missing pairs/links. / 缺失配对或链接时返回非零。"""
-    errors: list[str] = []
+    errors = [
+        "Personal document in public tree / 公开目录包含私人文档: " + str(path.relative_to(ROOT))
+        for path in sorted((ROOT / "docs").rglob("*"))
+        if path.is_file() and path.name.upper() in {"RESUME.MD", "PROJECT_TALK.MD"}
+    ]
     en = {p.name for p in (ROOT / "docs/en").glob("*.md")}
     zh = {p.name for p in (ROOT / "docs/zh").glob("*.md")}
     if en != zh:

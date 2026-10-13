@@ -10,3 +10,7 @@ dist/
 data/
 work/
 .DS_Store
+
+# Personal drafting files stay outside the public tree.
+docs/**/RESUME.md
+docs/**/PROJECT_TALK.md

@@ -105,6 +105,6 @@ Apple M1 Pro、16 GiB、macOS arm64、Python 3.12.2、NumPy 2.2.6、SciPy 1.15.3
 
 高维/重叠包围盒会使剪枝失效；Python 遍历和候选维护有开销；构建需要数据及临时副本留在内存。索引不可变，只支持可信本地数值输入；校验和不能证明文件来源可信。没有 GPU、近似检索、在线更新、HTTP 服务或生产部署声明。详见[安全与限制](SECURITY_zh.md)。
 
-[研究](docs/zh/RESEARCH.md) · [架构](docs/zh/ARCHITECTURE.md) · [实验](docs/zh/EXPERIMENTS.md) · [开发记录](docs/zh/DEVELOPMENT.md) · [代码导读](docs/zh/WALKTHROUGH.md) · [发布材料](docs/zh/RELEASE.md) · [简历与证据](docs/zh/RESUME.md) · [项目讲解](docs/zh/PROJECT_TALK.md) · [贡献](CONTRIBUTING_zh.md)
+[研究](docs/zh/RESEARCH.md) · [架构](docs/zh/ARCHITECTURE.md) · [实验](docs/zh/EXPERIMENTS.md) · [开发记录](docs/zh/DEVELOPMENT.md) · [代码导读](docs/zh/WALKTHROUGH.md) · [发布材料](docs/zh/RELEASE.md) · [贡献](CONTRIBUTING_zh.md)
 
 验收记录见 [acceptance.json](results/acceptance.json)；其通过、失败和未执行状态分别记录。MIT 许可证见 [LICENSE](LICENSE)，第三方归属见 [NOTICE](NOTICE_zh.md)。引用使用 [CITATION.cff](CITATION.cff)，并保留版本、源码提交及运行 ID；无 DOI 或已发表论文声明。
